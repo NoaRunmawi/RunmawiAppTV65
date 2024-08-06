@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="btnRadius">5dp</dimen>
+    <dimen name="item_space">8dp</dimen>
+    <dimen name="borderRadius">10dp</dimen>
+    <dimen name="label_text">10sp</dimen>
+    <dimen name="login_playlist_et_rl_padding">10dp</dimen>
+</resources>

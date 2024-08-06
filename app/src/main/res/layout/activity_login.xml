@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="143dp"
+            android:layout_height="41dp"
+            android:src="@drawable/logo_new" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_main_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:background="#141414"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textColor="@color/white"
+                android:textSize="@dimen/label_text" />
+
+            <EditText
+                android:layout_width="233dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_edittext_svg"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white_opacity_seventy"
+                android:textSize="@dimen/label_text"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/phone_number"
+                android:layout_width="233dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/bg_et"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:imeOptions="actionNext|flagNoFullscreen"
+                android:inputType="number"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:paddingStart="@dimen/login_playlist_et_rl_padding"
+                android:paddingEnd="@dimen/login_playlist_et_rl_padding"
+                android:scrollHorizontally="true"
+                android:text=""
+
+                android:textColor="@color/white"
+                android:textColorHint="@color/white_opacity_seventy"
+                android:textSize="@dimen/label_text"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="TV Key"
+                android:textColor="@color/white"
+                android:textSize="@dimen/label_text" />
+
+
+            <EditText
+                android:id="@+id/tv_key"
+                android:layout_width="233dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/bg_et"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:imeOptions="actionNext|flagNoFullscreen"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingStart="@dimen/login_playlist_et_rl_padding"
+                android:paddingEnd="@dimen/login_playlist_et_rl_padding"
+                android:scrollHorizontally="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white_opacity_seventy"
+                android:textSize="@dimen/label_text" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="TV key hi phone app menu atangin en theih a ni."
+                android:gravity="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/label_text" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="233dp"
+                android:layout_height="30dp"
+                android:background="@drawable/button_menu">
+
+                <TextView
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_menu"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="Log in"
+                    android:textColor="@drawable/menu_text_color"
+                    android:textSize="@dimen/label_text"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <ProgressBar
+                    android:id="@+id/portal_login_progress"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:layout_weight="0.4"
+
+                    android:text="          Don't have an account? "
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/label_text" />
+
+                <TextView
+                    android:layout_weight="0.6"
+
+                    android:id="@+id/btn_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/recycle_focus"
+                    android:focusable="true"
+                    android:gravity="left"
+                    android:text="Sign Up"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/label_text"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_main"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="default_background">#3d3d3d</color>
+    <color name="main_background">#1a1919</color>
+
+    <color name="dim_foreground_dark">#d9d9d9</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="detail_background">#0096a6</color>
+    <color name="soft_opaque">#30000000</color>
+    <color name="img_soft_opaque">#30FF0000</color>
+    <color name="img_full_opaque">#00000000</color>
+    <color name="black_opaque">#AA000000</color>
+    <color name="black">#59000000</color>
+    <color name="black1">#000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange_transparent">#AAFADCA7</color>
+    <color name="orange">#FADCA7</color>
+    <color name="yellow">#EEFF41</color>
+
+    <color name="selected_background">#ffaa3f</color>
+
+    <color name="unfocused_color">#CCCCCD</color>
+    <color name="focused_color">#FFF</color>
+    <color name="new_white">#FFFFFF</color>
+    <color name="new_bg">#191919</color>
+
+    <color name="unselected_btn_color">#272727</color>
+    <color name="pink">#e91e63</color>
+    <color name="red">#e80b1c</color>
+    <color name="teal">#009688</color>
+    <color name="lime">#cddc39</color>
+    <color name="green">#269b24</color>
+    <color name="lightGreen">#8bc34a</color>
+    <color name="amber">#ffc107</color>
+
+    <color name="brown">#795548</color>
+    <color name="lightBlue">#03a9f4</color>
+    <color name="cyan">#00bcd4</color>
+    <color name="deepPurple">#673ab7</color>
+    <color name="purple">#9c27b0</color>
+
+    <color name="white_opacity_seventy">#b3ffffff</color>
+    <color name="player_progress_color">#feab91</color>
+    <color name="player_background_color">#db2a0f</color>
+
+</resources>

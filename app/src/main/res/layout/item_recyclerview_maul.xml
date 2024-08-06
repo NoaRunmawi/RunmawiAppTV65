@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_marginLeft="2dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/fl_main_layout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:clipChildren="true"
+        android:focusable="true"
+        >
+
+        <ImageView
+            android:id="@+id/iv_item"
+            android:layout_width="320dp"
+            android:layout_height="225dp"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_new" />
+
+
+    </RelativeLayout>
+
+  <!--  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_item_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:visibility="gone"
+            android:lines="2"
+            android:padding="2dp"
+            android:text="textview"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>-->
+    <RelativeLayout
+        android:id="@+id/paidLayout"
+        android:layout_width="45dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="right"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/tv_item_tip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:visibility="visible"
+            android:lines="2"
+            android:padding="2dp"
+            android:text="Paid"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+</FrameLayout>
